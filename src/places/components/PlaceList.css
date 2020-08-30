@@ -1,0 +1,14 @@
+.place-list {
+  list-style: none;
+  margin: 1rem auto;
+  padding: 10px;
+  width: 100%;
+  max-width: 50rem;
+}
+.npf-title{
+  padding: 20px;
+}
+#np-button{
+  padding: 20px;
+
+}

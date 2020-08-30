@@ -1,0 +1,88 @@
+.user-item {
+  margin: 1rem;
+  width: calc(100% - 1rem);
+  min-width: 15rem;
+}
+
+.user-item a {
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  text-decoration: none;
+  padding: 1rem;
+  margin: 0px 0px 10px 10px;
+  color: white;
+}
+.user-item:hover{
+  box-shadow: rgb(201, 196, 196) 13px 15px 10px;
+}
+.flo-cls{
+  margin: -10px 0px 10px 20px;
+}
+.follow-button{
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border: white solid 2px;  
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  width: 100px;
+  margin: -35px 0px 0px 0.5rem;
+}
+.unfollow-button{
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  border: white solid 2px;  
+  border-radius: 5px;
+  text-align: center;
+  padding: 5px;
+  font-weight: bold;
+  width: 100px;
+  margin: -35px -10px 10px 2rem;
+}
+
+
+.unfollow-button:hover{
+  color:  #292929;
+  background-color: white;
+}
+
+
+.unfollow-button:hover{
+  color:  #292929;
+  background-color: white;
+}
+
+
+.user-item__content {
+  padding: 10px;
+  background: #292929;
+}
+
+.user-item__image {
+  width: 4rem;
+  height: 4rem;
+  margin-right: 1rem;
+}
+
+.user-item__info h2 {
+  font-size: 2rem;
+  margin: 0 0 0rem 1rem;
+  font-weight: normal;
+  color: white;
+}
+
+.user-item:hover h2,
+.user-item:active h2,
+.user-item:hover h3,
+.user-item:active h3 {
+  color: white;
+}
+
+.user-item__info h3 {
+  margin: 0 0 0rem 1rem;
+}
